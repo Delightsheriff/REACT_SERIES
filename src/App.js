@@ -1,10 +1,21 @@
 import './App.css';
 
 function App() {
+  const title = "Welcome to the new blog";
+  const likes = 50;
+  const person = {name: 'delight', age: 30};
+  const link = "http://www.google.com"
+
+
   return (
     <div className="App">
       <div className="content">
-        <h1>App Components</h1>
+        <h1>{title}</h1>
+        <p>Liked {likes} times</p>
+        <p>{10}</p>
+        <p>{"hello, delight"}</p>
+
+        <a href={link}>Google site</a>
       </div>
     </div>
   );
